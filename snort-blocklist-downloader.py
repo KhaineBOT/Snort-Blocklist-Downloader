@@ -29,7 +29,67 @@ blocklists = {
 		'regex': '',
 		'url':  'https://sslbl.abuse.ch/blacklist/dyre_sslipblacklist.rules',
 		'file': 'dyre_sslipblacklist.rules',	
-	}
+	},
+	'Emerging threats botcc': {
+		'id': 'emerging-botcc',
+		'regex': '',
+		'url':  'https://rules.emergingthreats.net/blockrules/emerging-botcc.rules',
+		'file': 'emerging-botcc.rules',	
+	},
+	'Emerging threats botcc-portgrouped': {
+		'id': 'emerging-botcc.portgrouped',
+		'regex': '',
+		'url':  'https://rules.emergingthreats.net/blockrules/emerging-botcc.portgrouped.rules',
+		'file': 'emerging-botcc.portgrouped.rules',	
+	},
+	'Emerging threats ciarmy': {
+		'id': 'emerging-ciarmy',
+		'regex': '',
+		'url':  'https://rules.emergingthreats.net/blockrules/emerging-ciarmy.rules',
+		'file': 'emerging-ciarmy.rules',	
+	},
+	'Emerging threats compromised-BLOCK': {
+		'id': 'emerging-compromised-BLOCK.rules',
+		'regex': '',
+		'url':  'https://rules.emergingthreats.net/blockrules/emerging-compromised-BLOCK.rules',
+		'file': 'emerging-compromised-BLOCK.rules',	
+	},
+	'Emerging threats compromised': {
+		'id': 'emerging-compromised.rules',
+		'regex': '',
+		'url':  'https://rules.emergingthreats.net/blockrules/emerging-compromised.rules',
+		'file': 'emerging-compromised.rules',	
+	},
+	'Emerging threats drop': {
+		'id': 'emerging-drop.rules',
+		'regex': '',
+		'url':  'https://rules.emergingthreats.net/blockrules/emerging-drop.rules',
+		'file': 'emerging-drop.rules',	
+	},
+	'Emerging threats dshield': {
+		'id': 'emerging-dshield.rules',
+		'regex': '',
+		'url':  'https://rules.emergingthreats.net/blockrules/emerging-dshield.rules',
+		'file': 'emerging-dshield.rules',	
+	},
+	'Emerging threats rbn malvertising': {
+		'id': 'emerging-rbn-malvertisers.rules',
+		'regex': '',
+		'url':  'https://rules.emergingthreats.net/blockrules/emerging-rbn-malvertisers.rules',
+		'file': 'emerging-rbn-malvertisers.rules',	
+	},
+	'Emerging threats rbn': {
+		'id': 'emerging-rbn.rules',
+		'regex': '',
+		'url':  'https://rules.emergingthreats.net/blockrules/emerging-rbn.rules',
+		'file': 'emerging-rbn.rules',	
+	},					
+	'Emerging threats tor': {
+		'id': 'emerging-tor.rules',
+		'regex': '',
+		'url':  'https://rules.emergingthreats.net/blockrules/emerging-tor.rules',
+		'file': 'emerging-tor.rules',	
+	}					
 }
 
 def downloadAndProcessBlocklist(url, regex, filename):
